@@ -30,3 +30,21 @@ body{
 .email:hover{
     color: #D44638 !important;
 }
+
+@media (max-width: 480px) {
+    .logo {
+        max-width: 100% !important;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .logo {
+        max-width: 70% !important;
+    }
+}
+
+@media (min-width: 1025px) {
+    .logo {
+        max-width: 30% !important;
+    }
+}
