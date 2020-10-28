@@ -35,16 +35,52 @@ body{
     .logo {
         max-width: 100% !important;
     }
+
+    .card-image{
+        width: 80px !important;
+        height: 80px !important;
+        align-self: center !important;
+    }
+
+    .mongo{
+        width: 320px !important;
+        height: 160px !important;
+        align-self: center !important;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
     .logo {
         max-width: 70% !important;
     }
+
+    .card-image{
+        width: 48px !important;
+        height: 48px !important;
+        align-self: center !important;
+    }
+
+    .mongo{
+        width: 96px !important;
+        height: 48px !important;
+        align-self: center !important;
+    }
 }
 
 @media (min-width: 1025px) {
     .logo {
         max-width: 30% !important;
+    }
+
+    .card-image{
+        width: 64px !important;
+        height: 64px !important;
+        align-self: center !important;
+    }
+
+    .mongo{
+        width: 128px !important;
+        height: 64px !important;
+        align-self: center !important;
     }
 }
