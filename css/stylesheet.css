@@ -43,8 +43,8 @@ body{
     }
 
     .mongo{
-        width: 320px !important;
-        height: 160px !important;
+        width: 240px !important;
+        height: 120px !important;
         align-self: center !important;
     }
 }
